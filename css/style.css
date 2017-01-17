@@ -2,6 +2,8 @@ body {
     background-image: url("../images/bg.jpg");
     background-size:cover;
     background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 nav li{
@@ -12,11 +14,11 @@ nav li{
     color: #7a7a7a;
     text-transform: uppercase;
     font-family: Bitter;
-    margin-left: 5em;
 
 }
 #home{
     color: #cfa205;
+    margin-left: 2em;
 }
 h1{
     text-transform: uppercase;
@@ -33,6 +35,7 @@ h1{
     width: 1020px;
     height: 60px;
     display: inline;
+    text-align: center;
 }
 header p {
     text-transform: uppercase;
@@ -41,6 +44,17 @@ header p {
 }
 main p{
     color: #7a7a7a;
+}
+#intro{
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    width: 900px;
+    height: 90px;
+}
+article{
+    width: 1200px;
+    height: 675px;
 }
 article img{
     width: 260px;
