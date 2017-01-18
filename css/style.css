@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
     background-image: url("../images/bg.jpg");
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 header {
@@ -30,20 +30,18 @@ nav li {
     font-family: "Bitter";
     margin: 1em;
 }
-#home {
+.selected {
     color: #cfa205;
 }
 h1 {
     text-transform: uppercase;
     color: #cfa205;
     font-family: "Josefin Sans";
-    text-align: center;
     font-size: 133px;
 }
 header p {
     text-transform: uppercase;
     color:#cfa205;
-    text-align: center;
     margin-bottom: 1em;
 }
 #socialbar {
@@ -52,7 +50,7 @@ header p {
     background-color: #e8e8e8;
     line-height: 3.5em;
 }
-#socialbar li{
+#socialbar li {
     display: inline;
     vertical-align: middle;
 }
@@ -90,9 +88,10 @@ article img {
     width: 260px;
     height: 195px;
 }
-article h4 {
+article h2 {
     margin-top: 1em;
     text-transform: uppercase;
+    font-size: 18px;
 }
 article p {
     width: 260px;
