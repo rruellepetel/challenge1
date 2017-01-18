@@ -56,33 +56,48 @@ header p {
     display: inline;
     vertical-align: middle;
 }
+i {
+    margin: 7px;
+}
 main {
     background-color: white;
+    margin-left: 8.8em;
+    margin-right: 8.75em;
 }
 main p {
     color: #7a7a7a;
 }
 #intro {
     text-align: center;
-    margin-left: 5em;
-    margin-right: 5em;
+    margin-left: 3.2em;
     width: 900px;
     height: 90px;
+    border-bottom: 1px solid grey;
+    padding-top: 4em;
+    padding-bottom: 1em;
+    font-family: "Bitter";
+    font-weight: bold;
 }
 article {
-    width: 1200px;
-    height: 675px;
-    column-count: 3;
-    column-gap: 1em;
+    width: 260px;
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 3.2em;
+    margin-top: 3em;
+    font-family: "Bitter";
 }
 article img {
     width: 260px;
     height: 195px;
 }
+article h4 {
+    margin-top: 1em;
+    text-transform: uppercase;
+}
 article p {
     width: 260px;
     height: 480px;
-}
-article h4 {
-
+    font-size: 14px;
+    margin-top: 1em;
+    font-weight: bold;
 }
