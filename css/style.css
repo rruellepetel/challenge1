@@ -1,66 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url("../images/bg.jpg");
     background-size:cover;
     background-attachment: fixed;
+}
+header {
+    background-color: black;
+    width: 1020px;
     margin-left: auto;
     margin-right: auto;
-
+    text-align: center;
+    color: white;
 }
-nav li{
-    width: 1020px;
+nav {
     height: 60px;
+}
+nav ul {
+    width: 1020px;
+}
+nav li {
     display: inline;
     background-color: black;
     color: #7a7a7a;
     text-transform: uppercase;
-    font-family: Bitter;
-
+    font-family: "Bitter";
 }
-#home{
+#home {
     color: #cfa205;
     margin-left: 2em;
 }
-h1{
+h1 {
     text-transform: uppercase;
     width: 1020px;
     height: 320px;
     color: #cfa205;
-    font-family: Josefin Sans;
+    font-family: "Josefin Sans";
     text-align: center;
-    background-color: black;
     font-size: 133px;
 }
-#socialbar li{
-    background-color: #e8e8e8;
-    width: 1020px;
+#socilabar {
     height: 60px;
-    display: inline;
+    width: 1020px;
     text-align: center;
+}
+#socialbar li{
+    display: inline;
 }
 header p {
     text-transform: uppercase;
     color:#cfa205;
     text-align: center;
 }
-main p{
+main {
+    background-color: white;
+}
+main p {
     color: #7a7a7a;
 }
-#intro{
+#intro {
     text-align: center;
     margin-left: 5em;
     margin-right: 5em;
     width: 900px;
     height: 90px;
 }
-article{
+article {
     width: 1200px;
     height: 675px;
 }
-article img{
+article img {
     width: 260px;
     height: 195px;
 }
-article p{
+article p {
     width: 260px;
     height: 480px;
 }
