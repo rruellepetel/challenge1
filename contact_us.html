@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge 1</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li>About The Tests</li>
+                    <li>Buy Themes</li>
+                    <li>Page Layouts</li>
+                    <li class="selected">Contact Us</li>
+                </ul>
+            </nav>
+            <h1>Create Pro</h1>
+            <p>Personal &#8226; Business &#8226; Organization</p>
+            <ul id="socialbar">
+                <li><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></li>
+            </ul>
+        </header>
+        <main>
+            <form action="" method="post">
+                    <fieldset id="information">
+                        <legend>Vos informations</legend>
+
+                        <label for="nom">Nom</label>
+                        <input type="text" name="name" value="" placeholder="Entrez votre nom" id="nom"/>
+
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" value="" placeholder="Entrez votre prénom" id="prenom"/>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" value="" placeholder="Entrez votre email"id="email"/>
+
+                    </fieldset>
+                    <fieldset id="fieldmessage">
+                        <legend>Votre message</legend>
+
+                        <label for="objet">Objet</label>
+                        <input type="text" name="subject" value="" placeholder="Entrez l'objet du message"id="objet"/>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="8" cols="80" placeholder="Entrez un message"id="message"></textarea>
+
+                    </fieldset>
+                        <input type="reset" name="" value="Réinitialiser">
+                        <input type="submit" name="envoyer" value="Envoyer"/>
+                </form>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
