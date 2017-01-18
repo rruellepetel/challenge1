@@ -14,7 +14,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: white;
+    color: #7a7a7a;
 }
 nav {
     height: 60px;
@@ -28,32 +28,33 @@ nav li {
     color: #7a7a7a;
     text-transform: uppercase;
     font-family: "Bitter";
+    margin: 1em;
 }
 #home {
     color: #cfa205;
-    margin-left: 2em;
 }
 h1 {
     text-transform: uppercase;
-    width: 1020px;
-    height: 320px;
     color: #cfa205;
     font-family: "Josefin Sans";
     text-align: center;
     font-size: 133px;
 }
-#socilabar {
-    height: 60px;
-    width: 1020px;
-    text-align: center;
-}
-#socialbar li{
-    display: inline;
-}
 header p {
     text-transform: uppercase;
     color:#cfa205;
     text-align: center;
+    margin-bottom: 1em;
+}
+#socialbar {
+    height: 60px;
+    width: 1020px;
+    background-color: #e8e8e8;
+    line-height: 3.5em;
+}
+#socialbar li{
+    display: inline;
+    vertical-align: middle;
 }
 main {
     background-color: white;
@@ -71,6 +72,8 @@ main p {
 article {
     width: 1200px;
     height: 675px;
+    column-count: 3;
+    column-gap: 1em;
 }
 article img {
     width: 260px;
